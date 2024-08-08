@@ -4,12 +4,25 @@ body {
 
 img {
   width: 100px;
-  height: 100px;
+  height: 100px; align-self: center
+}
+.text{
+  text-align: center;
+}
+.largeContainer{
+  display:flex;
+  justify-content:center; gap: 52px;
+}
+.container{
+   display:flex;
+   flex-direction: column;
+   max-width: 200px;
 }
 
-.title {
+.title { 
+  text-align: center;
   font-size: 36px;
-  font-weight: 900;
+  font-weight: 900; margin-bottom: 32px;
 }
 
 /* do not edit this footer */
